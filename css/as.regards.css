@@ -1,0 +1,363 @@
+/* 导航栏 */
+header {
+    width: 1200px;
+    margin: 0 auto;
+    height: 140px;
+}
+
+header .navigation-bar-left {
+    background: url(../images/home/home-logo.png.png) no-repeat center/cover;
+    width: 184px;
+    height: 48px;
+    margin-top: 46px;
+    float: left;
+}
+
+header .navigation-bar-right {
+    float: right;
+}
+
+header .navigation-bar-right a {
+    font-size: 18px;
+    color: #333;
+    line-height: 140px;
+    margin-left: 75px;
+}
+
+header .navigation-bar-right a:nth-child(4) {
+    color: #267AFF;
+}
+
+header .navigation-bar-right a:hover {
+    color: #267AFF;
+}
+
+/* 轮播图 */
+.banner {
+    background: url(../images/about/about\ us_banner.png) no-repeat center/cover;
+    width: 100%;
+    height: 600px;
+}
+.banner-1{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner-2{
+    background: url("../images/about/微信图片_20190819162707.png") no-repeat center/cover;
+    width: 342px;
+    height: 61px;
+    position: absolute;
+    right: 70px;
+    top: 253px;
+}
+/* 公司简介 */
+.introduction{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.introduction .introduction-1{
+    font-size: 30px;
+    color: #333333;
+    margin-bottom: 60px;
+}
+.introduction .introduction-2{
+    font-size: 14px;
+    color: #333333;
+    line-height: 30px;
+}
+.culture{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.culture .culture-1{
+    font-size: 30px;
+    color: #333333;
+    margin-bottom: 60px;
+}
+.culture .culture-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.culture .culture-2 .culture-2-1{
+    background: url(../images/about/about\ us_img1.png) no-repeat center/cover;
+    width: 280px;
+    height: 275px;
+}
+.culture .culture-2 .culture-2-1:hover{
+    background:url(../images/about/10_20190819220309.jpg);
+}
+/* .culture .culture-2 .culture-2-1 .darkr{
+    background: url(../images/about/10_20190819220309.jpg)no-repeat center/cover;
+    width: 280px;
+    height: 275px;
+    display: none;
+    z-index: 1;
+} */
+.culture .culture-2 .culture-2-1 .culture-2-1-1{
+    width: 211px;
+    height: 139px;
+    font-size: 22px;
+    color: #fff;
+    margin: 66px 30px 70px 38px;
+    line-height: 36px;
+    text-align: center;
+}
+.culture .culture-2 .culture-2-1 .culture-2-1-1>div{
+    display: none;
+}
+.culture .culture-2 .culture-2-1 .culture-2-1-1:hover>div{
+    display: block;
+}
+.culture .culture-2 .culture-2-1 .culture-2-1-1:hover>span{
+    display: none;
+}
+.culture .culture-2 .culture-2-1 .culture-2-1-1>span{
+    font-size: 36px;
+    color: #606D8A;
+    line-height: 139px;
+}
+.culture .culture-2 .culture-2-1:hover>span{
+    display: none;
+}
+
+
+
+
+.culture .culture-2 .culture-2-2{
+    background: url(../images/about/about\ us_img2.png) no-repeat center/cover;
+    width: 280px;
+    height: 275px;
+}
+.culture .culture-2 .culture-2-2:hover{
+    background:url(../images/about/11_20190819220333.jpg);
+}
+.culture .culture-2 .culture-2-2 .culture-2-2-1{
+    width: 211px;
+    height: 139px;
+    font-size: 22px;
+    color: #fff;
+    margin: 66px 30px 70px 38px;
+    line-height: 36px;
+    text-align: center;
+}
+.culture .culture-2 .culture-2-2 .culture-2-2-1>div{
+    display: none;
+}
+.culture .culture-2 .culture-2-2 .culture-2-2-1:hover>div{
+    display: block;
+}
+.culture .culture-2 .culture-2-2 .culture-2-2-1:hover>span{
+    display: none;
+}
+.culture .culture-2 .culture-2-2 .culture-2-2-1>span{
+    font-size: 36px;
+    color: #606D8A;
+    line-height: 139px;
+}
+
+.culture .culture-2 .culture-2-2:hover>span{
+    display:none;
+}
+
+
+
+.culture .culture-2 .culture-2-3{
+    background: url(../images/about/5_20190819191655.png) no-repeat center/cover;
+    width: 280px;
+    height: 275px;
+}
+.culture .culture-2 .culture-2-3:hover{
+    background:url(../images/about/12_20190819220342.jpg);
+}
+.culture .culture-2 .culture-2-3 .culture-2-3-1>div{
+    display: none;
+}
+.culture .culture-2 .culture-2-3 .culture-2-3-1:hover>div{
+    display: block;
+}
+.culture .culture-2 .culture-2-3 .culture-2-3-1{
+    text-align: center;
+}
+.culture .culture-2 .culture-2-3 .culture-2-3-1:hover span{
+    display: none;
+}
+.culture .culture-2 .culture-2-3 .culture-2-3-1 span{
+    font-size: 36px;
+    color: #606D8A;
+    line-height: 139px;
+}
+.culture .culture-2 .culture-2-3 .culture-2-3-1{
+    width: 211px;
+    height: 139px;
+    font-size: 22px;
+    color: #fff;
+    margin: 66px 30px 70px 38px;
+    line-height: 36px;
+}
+
+
+
+
+.culture .culture-2 .culture-2-4{
+    background: url(../images/about/about\ us_img4.png) no-repeat center/cover;
+    width: 280px;
+    height: 275px;
+}
+.culture .culture-2 .culture-2-4:hover{
+    background:url(../images/about/13_20190819220352.jpg);
+}
+.culture .culture-2 .culture-2-4 .culture-2-4-1{
+    width: 211px;
+    height: 139px;
+    font-size: 22px;
+    color: #fff;
+    margin: 66px 30px 70px 38px;
+    line-height: 36px;
+    text-align: center;
+}
+.culture .culture-2 .culture-2-4 .culture-2-4-1>div{
+    display: none;
+}
+.culture .culture-2 .culture-2-4 .culture-2-4-1:hover>div{
+    display: block;
+}
+.culture .culture-2 .culture-2-4 .culture-2-4-1:hover>span{
+    display: none;
+}
+.culture .culture-2 .culture-2-4 .culture-2-4-1>span{
+    font-size: 36px;
+    color: #606D8A;
+    line-height: 139px;
+}
+
+
+/* .culture .culture-2 .culture-2-4>span{
+    font-size: 36px;
+    color: #606D8A;
+    display: block;
+    margin: 117px 103px 123px 102px;
+}
+.culture .culture-2 .culture-2-4:hover>span{
+    display: none;
+} */
+
+/* 诚聘英才 */
+.recruit{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.recruit .recruit-1{
+    font-size: 30px;
+    color: 30px;
+}
+.recruit .recruit-2{
+    margin-top: 51px;
+}
+.recruit .recruit-2 .recruit-2-1{
+    display: flex;
+    justify-content: space-between;
+}
+/*.recruit .recruit-2 .recruit-2-1 .recruit-2-1-1{*/
+    /*background: url("../images/about/4879cf69ff7416a45a50855727ddc3c.jpg")no-repeat center/cover ;*/
+    /*width: 1200px;*/
+    /*height: 236px;*/
+/*}*/
+.recruit .recruit-2 .recruit-2-1 .recruit-2-1-1{
+    background: url(../images/about/1.jpg) no-repeat center;
+    width: 204px;
+    height: 236px;
+}
+.recruit .recruit-2 .recruit-2-1 .recruit-2-1-1:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: all 0.4s;
+}
+/*.recruit .recruit-2 .recruit-2-1 .recruit-2-1-2{*/
+    /*background: url(../images/about/about-us_02.png.jpg) no-repeat center;*/
+    /*width: 204px;*/
+    /*height: 236px;*/
+/*}*/
+/* 加入我们 */
+.join{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 93px;
+}
+.join span{
+    display: block;
+    width: 302px;
+    height: 86px;
+    background-color: #2D6FFD;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 86px;
+    border-radius:6px;
+    margin: 0 auto;
+    box-shadow:0px 6px 9px 0px rgba(23,73,179,0.57);
+}
+/* 结尾 */
+footer {
+    width: 100%;
+    height: 340px;
+    background: #131820;
+    margin-top: 120px;
+}
+
+footer .footer-1 {
+    width: 810px;
+    margin: 0 auto;
+    padding-top: 80px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    color: #666666;
+}
+
+footer .footer-1 .footer-1-1-1 {
+    color: #fff;
+}
+
+footer .footer-1 .footer-1-1-2 {
+    width: 62px;
+    height: 1px;
+    background: #E5E5E5;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.footer-1-1-3 {
+    color: #666;
+}
+
+footer .footer-1 .footer-1-1-4 {
+    margin: 14px 0;
+}
+
+footer .footer-2 {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 89px;
+}
+
+footer .footer-2 span:nth-child(2) img {
+    margin-left: 19px;
+    margin-right: 7px;
+}
+
+footer .footer-2 span {
+    font-size: 12px;
+    color: #666;
+}
+
+.footer-1-1-4-1 {
+    color: #666;
+}

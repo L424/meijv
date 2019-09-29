@@ -1,0 +1,423 @@
+/* 导航栏 */
+header {
+    width: 1200px;
+    margin: 0 auto;
+    height: 140px;
+}
+
+header .navigation-bar-left {
+    background: url(../images/home/home-logo.png.png) no-repeat center/cover;
+    width: 184px;
+    height: 48px;
+    margin-top: 46px;
+    float: left;
+}
+
+header .navigation-bar-right {
+    float: right;
+}
+
+header .navigation-bar-right a {
+    font-size: 18px;
+    color: #333;
+    line-height: 140px;
+    margin-left: 75px;
+}
+
+header .navigation-bar-right a:nth-child(1) {
+    color: #267AFF;
+}
+
+header .navigation-bar-right a:hover {
+    color: #267AFF;
+}
+
+/* 轮播图 */
+.banner {
+    background: url(../images/home/home-banner.png.png) no-repeat center/cover;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+/*.banner .arrow-left {*/
+    /*font-size: 80px;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 50%;*/
+    /*color: #fff;*/
+/*}*/
+
+/*.banner .arrow-right {*/
+    /*font-size: 80px;*/
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*top: 50%;*/
+    /*color: #fff;*/
+/*}*/
+
+ .banner .arrow-left{
+     background: url(../images/home/2.svg) no-repeat center/cover;
+    width: 50px;
+    height: 86px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -43px;
+     transform:rotate(180deg);
+}
+.banner .arrow-right{
+    background: url(../images/home/2.svg) no-repeat center/cover;
+    width: 50px;
+    height: 86px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -43px;
+}
+/* 美居智慧家居生活平台 */
+.terrace {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.terrace .terrace-1 {
+    width: 340px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: #BFBFBF solid 1px;
+}
+
+.terrace .terrace-1 .terrace-1-1 {
+    width: 74px;
+    height: 6px;
+    background: #434343;
+    margin: 0 auto;
+    margin-top: 22px;
+}
+
+.terrace .terrace-1 span {
+    font-size: 30px;
+    color: #267AFF;
+}
+
+.terrace .terrace-2 {
+    background: url(../images/home/home-img.png.jpg) no-repeat center/cover;
+    width: 1200px;
+    height: 327px;
+    margin-top: 60px;
+}
+
+.terrace .terrace-3 .terrace-3-1 {
+    font-size: 14px;
+    color: #000000;
+    line-height: 24px;
+    margin-top: 53px;
+}
+
+.terrace .terrace-3 .terrace-3-2 {
+    font-size: 14px;
+    color: #000000;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+/* 产品特色 */
+.product-feature {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 119px;
+}
+
+.product-feature .product-feature-1 {
+    width: 340px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: #BFBFBF solid 1px;
+}
+
+.product-feature .product-feature-1 .product-feature-1-1 {
+    width: 74px;
+    height: 6px;
+    background: #434343;
+    margin: 0 auto;
+    margin-top: 22px;
+}
+
+.product-feature .product-feature-1 span {
+    font-size: 30px;
+    color: #267AFF;
+}
+
+.product-feature .product-feature-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 62px;
+}
+
+/* 万物互联 */
+.product-feature .product-feature-2 .product-feature-2-1 {
+    width: 96px;
+    text-align: center;
+}
+
+.product-feature .product-feature-2 .product-feature-2-1 img {
+    width: 90px;
+    height: 80px;
+    margin: 0 10px;
+}
+
+.product-feature .product-feature-2 .product-feature-2-1>div a {
+    color: #666;
+    font-size: 24px;
+    margin-left: -2px;
+    display: block;
+    width: 117px;
+}
+
+.product-feature .product-feature-2 .product-feature-2-1>div {
+    margin-top: 26px;
+}
+
+/* 全屋定制 */
+.product-feature .product-feature-2 .product-feature-2-2 {
+    width: 96px;
+    text-align: center;
+}
+
+.product-feature .product-feature-2 .product-feature-2-2 img {
+    width: 90px;
+    height: 80px;
+    margin: 0 8px;
+}
+
+.product-feature .product-feature-2 .product-feature-2-2>div a {
+    color: #666;
+    font-size: 24px;
+    margin-left: -8px;
+    display: block;
+    width: 117px;
+}
+
+.product-feature .product-feature-2 .product-feature-2-2>div {
+    margin-top: 25px;
+}
+
+/* 个性定制 */
+.product-feature .product-feature-2 .product-feature-2-3 {
+    width: 96px;
+    text-align: center;
+}
+
+.product-feature .product-feature-2 .product-feature-2-3 img {
+    width: 90px;
+    height: 80px;
+    margin: 0 10px;
+}
+
+.product-feature .product-feature-2 .product-feature-2-3>div a {
+    color: #666;
+    font-size: 24px;
+    margin-left: 0;
+    display: block;
+    width: 117px;
+}
+
+.product-feature .product-feature-2 .product-feature-2-3>div {
+    margin-top: 24px;
+}
+
+/* AR体验 */
+.product-feature .product-feature-2 .product-feature-2-4 {
+    width: 82px;
+    text-align: center;
+}
+
+.product-feature .product-feature-2 .product-feature-2-4 img {
+    width: 90px;
+    height: 80px;
+    margin: 0 6px;
+}
+
+.product-feature .product-feature-2 .product-feature-2-4>div a {
+    color: #666;
+    font-size: 24px;
+    margin-left: -6px;
+    display: block;
+    width: 117px;
+}
+
+.product-feature .product-feature-2 .product-feature-2-4>div {
+    margin-top: 25px;
+}
+
+/* 贴心 “小美” */
+.product-feature .product-feature-2 .product-feature-2-5 {
+    width: 152px;
+    text-align: center;
+}
+
+.product-feature .product-feature-2 .product-feature-2-5 img {
+    width: 90px;
+    height: 80px;
+    margin: 0 39px;
+}
+
+.product-feature .product-feature-2 .product-feature-2-5>div a {
+    color: #666;
+    font-size: 24px;
+    margin-left: 23px;
+    display: block;
+    width: 152px;
+}
+
+.product-feature .product-feature-2 .product-feature-2-5>div {
+    margin-top: 33px;
+}
+
+/* 合作伙伴 */
+.partner {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.partner .partner-1 {
+    width: 340px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: #BFBFBF solid 1px;
+}
+
+.partner .partner-1 .partner-1-1 {
+    width: 74px;
+    height: 6px;
+    background: #434343;
+    margin: 0 auto;
+    margin-top: 22px;
+}
+
+.partner .partner-1 span {
+    font-size: 30px;
+    color: #267AFF;
+}
+
+.partner .partener-2 {
+    background: url(../images/home/1ceeff750f74c08db0ba5cd5b897b84.png) no-repeat center/cover;
+    width: 1200px;
+    height: 317px;
+    margin-top: 43px;
+}
+
+.download-service {
+    width: 150px;
+    height: 300px;
+    background: rgba(229, 229, 229, 1);
+    border-radius: 10px;
+    position: fixed;
+    right: 8px;
+    top: 50%;
+}
+
+.download-service .download {
+    width: 150px;
+    height: 150px;
+}
+
+.download-service .download img {
+    width: 39px;
+    height: 38px;
+    margin: 45px 55px 30px 56px;
+}
+
+.download-service .download span {
+    font-size: 16px;
+    color: rgba(102, 102, 102, 1);
+    margin-left: 45px;
+}
+
+.download-service .service {
+    width: 150px;
+    height: 149px;
+}
+
+.download-service .service img {
+    width: 39px;
+    height: 38px;
+    margin: 45px 55px 30px 56px;
+}
+
+.download-service .service span {
+    font-size: 16px;
+    color: rgba(102, 102, 102, 1);
+    margin-left: 45px;
+}
+
+
+.download-service .download-service-1 {
+    width: 99px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 26px;
+}
+
+footer {
+    width: 100%;
+    height: 340px;
+    background: #131820;
+    margin-top: 120px;
+}
+
+footer .footer-1 {
+    width: 810px;
+    margin: 0 auto;
+    padding-top: 80px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    color: #666666;
+}
+
+footer .footer-1 .footer-1-1-1 {
+    color: #fff;
+}
+
+footer .footer-1 .footer-1-1-2 {
+    width: 62px;
+    height: 1px;
+    background: #E5E5E5;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.footer-1-1-3 {
+    color: #666;
+}
+
+footer .footer-1 .footer-1-1-4 {
+    margin: 14px 0;
+}
+
+footer .footer-2 {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 89px;
+}
+
+footer .footer-2 span:nth-child(2) img {
+    margin-left: 19px;
+    margin-right: 7px;
+}
+
+footer .footer-2 span {
+    font-size: 12px;
+    color: #666;
+}
+
+.footer-1-1-4-1 {
+    color: #666;
+}
